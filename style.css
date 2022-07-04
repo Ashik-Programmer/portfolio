@@ -16,7 +16,7 @@ body {
     color: orange;
 }
 
-.header-left a {
+.button-link {
     text-decoration: none;
     background-image: linear-gradient(45deg, lightsalmon, tomato);
     padding: 10px 40px;
@@ -27,6 +27,7 @@ body {
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .header-half {
@@ -37,4 +38,14 @@ section {
 
 .header-right img {
     width: 100%;
+}
+
+.dream-text h1 {
+    font-size: 40px;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
