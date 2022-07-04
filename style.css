@@ -25,7 +25,7 @@ body {
     font-weight: 700;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -48,4 +48,21 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.full-stack {
+    box-shadow: 5px 7px 40px grey;
+    border-left: 7px solid tomato;
+    padding-bottom: 50px;
+    border-radius: 0 3px 3px 0;
+}
+
+.full-stack h1 {
+    font-size: 40px;
+}
+
+.experiences-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
 }
