@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+p {
+    color: dimgray;
+}
+
 .header {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
